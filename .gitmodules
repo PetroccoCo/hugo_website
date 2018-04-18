@@ -4,3 +4,7 @@
 [submodule "themes/osprey"]
 	path = themes/osprey
 	url = https://github.com/tomanistor/osprey.git
+[submodule "public"]
+	path = public
+	url = git@github.com:petroccoco/petroccoco.github.io.git
+	branch = master
