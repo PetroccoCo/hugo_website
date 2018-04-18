@@ -1,3 +1,45 @@
-baseURL = "http://example.org/"
+baseURL = "http://www.petrocco.co/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Petrocco.co"
+theme = "osprey"
+
+[Params]
+    tagline = "Pete Winterscheidt"
+    author = "Pete Winterscheidt"
+    description = "Full-stack web and mobile developer based in Denver, CO."
+    logoBig = "/img/pete_headshot_big.jpeg"
+    logoSmall = "/img/pete_headshot_small.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/osprey.png"
+    twitter = "Petroccoco"
+    linkedin = "mpwinterscheidt"
+    github = "Petroccoco"
+    facebook = ""
+    email = "spam@petrocco.co"
+    googleTagManager = ""
+    highlightJS = true
+    copyright = false
+    credit = false
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Work"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url  = "/#blog"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4
